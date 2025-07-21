@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 10px 5px 0px rgba(184,184,184,0.75);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+nav img{
+    width: 50%;
+}
+.hero{
+    display: flex;
+    background-color: black;
+}
+.hero div{
+    width: 50%;
+    color: white;
+    align-self: center;
+    font-size: 40px;
+}
+.hero img{
+    width: 100%;
+}
+
+/* seccion de cards */
+.cards{
+    padding: 40px;
+}
+
+.fila{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+.cards img{
+    width: 100%;
+}
+.tarjeta{
+    display: flex;
+    box-shadow: 10px 10px 5px 0px rgba(184,181,181,0.75);
+}
+.tarjeta div{
+    width: 50%;
+}
+
+.ubicacion{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+.algo{
+    width: 50%;
+
+}
+.botones button{
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+.fijo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: darkblue;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+.fijo a{
+    color: aliceblue;
+    text-decoration: none;
+}
